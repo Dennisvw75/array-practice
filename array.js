@@ -1,0 +1,1 @@
+const shavingBrands = ['Taylor of old Bondstreet', 'Proraso', 'Mondial', 'Bergamotto', 'Acca Kappa', 'Edwin Jagger', 'Crabtree & Evelyn', 'Dr Harris', 'St James of London'];
