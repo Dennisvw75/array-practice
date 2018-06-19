@@ -1,3 +1,5 @@
-# In this repo I will practice with array methods like, sort, filter and more.
+# In this repo I will practice with array methods like sort, filter and more.
 
 I will create a couple of arrays and work with the methods.
+
+## I will also learn how to work with Markdown!
