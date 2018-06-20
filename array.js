@@ -100,6 +100,32 @@ shavingBrands.push('Truefitt&Hill');
 // });
 
 // With arrow functions
-const canDrink = ages.filter(age => age >= 21);
+// const canDrink = ages.filter(age => age >= 21);
 
-// Filter retail companies
+// Filter retail companies es5
+// const retailCompanies = companies.filter(function (company) {
+//   if (company.category === 'Retail') {
+//     return true;
+//   }
+// });
+
+// Filter retail companies es6 arrow function
+const retailCompanies = companies.filter(company => company.category === 'Retail');
+
+// Get 80s companies
+const eightiesCompanies = companies.filter(company => (company.start >= 1980 && company.start < 1990));
+
+// Get companies that lasted 10 years or more
+const lastedTenYears = companies.filter(company => (company.end - company.start >= 10));
+
+// Map
+///Create array of company names
+// const companyNames = companies.map(function (company) {
+//   return company.name;
+// });
+
+const testMap = companies.map(function (company) {
+  return `${company.name} [${company.start} - ${company.end}]`;
+});
+
+console.log(testMap);
