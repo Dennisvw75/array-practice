@@ -102,4 +102,4 @@ shavingBrands.push('Truefitt&Hill');
 // With arrow functions
 const canDrink = ages.filter(age => age >= 21);
 
-console.log(canDrink);
+// Filter retail companies
